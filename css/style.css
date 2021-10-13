@@ -16,9 +16,8 @@ header{
 }
 
 .testo-jumbo{
-    width: 400px;
     color:white;
-    padding-top: 275px;
+    padding-top: 265px;
 }
 
 .testo-jumbo img{
@@ -34,7 +33,7 @@ header{
 }
 
 .testo-jumbo-bottom{
-    padding-top: 50px;
+    padding-top: 65px;
 }
 
 .testo-jumbo .custom-btn{
@@ -43,4 +42,15 @@ header{
     border-radius: 20px;
     padding: 9px 15px;
     font-weight: 500;
+}
+
+/* TITOLI */
+
+.box-titoli{
+    margin: 40px 0px;
+}
+
+.box-titoli img{
+    width: 100%;
+    border-radius: 15px;
 }
