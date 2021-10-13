@@ -1,0 +1,37 @@
+/* HEADER */
+
+header{
+    height: 100px;
+    background-color: #000;
+}
+
+
+/* JUMBOTRONE */
+
+.mt-jumbotrone-top{
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+}
+
+.testo-jumbo{
+    width: 30%;
+    color:white;
+    padding-top: 260px;
+}
+
+.testo-jumbo img{
+    width: 55%;
+}
+
+.testo-jumbo h1{
+    margin: 25px 0px 30px 0px;
+}
+
+.testo-jumbo .custom-btn{
+    margin-top: 15px;
+    background-color: #CD3D10;
+    border-radius: 20px;
+    padding: 9px 15px;
+    font-weight: 500;
+}
