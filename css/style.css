@@ -1,10 +1,38 @@
 /* HEADER */
 
-header{
-    height: 100px;
+header .black-line{
+    height: 40px;
     background-color: #000;
 }
 
+header .btn-header{
+    background-color: #353636;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+
+header .fa-search{
+    font-size: 20px;
+}
+
+header .nav-link img{
+    width: 10px;
+}
+
+header .navbar ul li .text-color{
+    color: black;
+}
+header span .fa-bars{
+    padding: 5px 10px;
+    color: gray;
+    border: 1px solid lightgray;
+    font-size: 20px;
+}
+
+.box-sony img{
+    margin: 10px 15px 0px 0px;
+}
 
 /* JUMBOTRONE TOP-BOTTOM */
 
