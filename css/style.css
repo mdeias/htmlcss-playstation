@@ -45,11 +45,11 @@ header span .fa-bars{
 
 .testo-jumbo{
     color:white;
-    padding-top: 265px;
+    padding-top: 275px;
 }
 
 .testo-jumbo img{
-    width: 55%;
+    width: 220px;
 }
 
 .testo-jumbo h1{
@@ -61,7 +61,7 @@ header span .fa-bars{
 }
 
 .testo-jumbo-bottom{
-    padding-top: 65px;
+    padding-top: 55px;
 }
 
 .testo-jumbo .custom-btn{
@@ -75,10 +75,75 @@ header span .fa-bars{
 /* TITOLI */
 
 .box-titoli{
-    margin: 40px 0px;
+    margin: 40px 0px 100px 0px;
 }
 
 .box-titoli img{
     width: 100%;
     border-radius: 15px;
+}
+
+/* CONSOLE PS 5 */
+
+
+
+.box-title{
+    text-align: center;
+}
+
+.box-title .play{
+    margin: 0px;
+    color: #006CCE;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.box-title h1{
+    margin-bottom: 30px;
+}
+
+.box-ps-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-ps-5 img{
+    width: 100%;
+}
+
+.box-ps-5 p{
+    padding: 30px 0px 25px 0px;
+    width: 80%;
+    color: gray;
+    font-size: 17px;
+}
+
+.btn-ps5{
+    width: 200px;
+    border-radius: 25px;
+    padding: 5px 0px 5px 0px;
+}
+
+.colonna-accessori{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.box-accessori{
+    text-align: center;
+}
+
+.box-accessori p{
+    margin-top: 10px;
+    color: grey;
+}
+
+.box-accessori img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.box-accessori:hover{
+    border-bottom: 3px solid #006CCE;
 }
