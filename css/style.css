@@ -261,6 +261,64 @@ img{
 /* FOOTER */
 
 footer{
-    height: 500px;
+    min-height: 500px;
     background-color: #00439B;
+    color: white;
+    font-size: 12px;
+}
+
+footer .box-footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+footer .box-footer img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+footer .container .ps-logo-footer{
+    width: 100px;
+    margin-bottom: 40px;
+
+}
+
+footer .ps-country{
+    padding-top: 60px;
+}
+
+footer .box-linguage{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .box-linguage img{
+    margin-right: 10px;
+}
+
+footer .box-linguage p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer .box-footer .language{
+    width: 20px;
+}
+
+footer .row-list{
+    margin: 30px 0px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin-bottom: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
