@@ -171,6 +171,15 @@ img{
     border-radius: 15px;
 }
 
+.active-title{
+    padding: 2px;
+}
+
+.active-title:active{
+    border: 2px solid #006CCE;
+    border-radius: 20px;
+}
+
 /* CONSOLE PS 5 */
 .console-ps-5{
     margin-top: 50px;
@@ -256,6 +265,7 @@ img{
 }
 
 /* PLAYSTATION 4 */
+
 .console-ps-4{
     padding: 50px 0px;
 }
@@ -272,7 +282,7 @@ img{
     margin: 20px 0px;
 }
 
-/* PS PLUS */
+/* PS PLUS/NOW */
 
 .ps-plus{
     background-color: #BEBCBB;
@@ -283,6 +293,7 @@ img{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin: 30px 0px;
 }
 
 .box-testo-plus img{
@@ -290,11 +301,19 @@ img{
 }
 
 .ps-plus .box-plus img{
-    height: 100%;
+    width: 100%;
 }
 
 .ps-plus p, .ps-now p{
-    margin: 35px 0px;
+    margin: 30px 0px;
+}
+
+.ps-now{
+    background-color: #161C3B;
+}
+
+.ps-now p{
+    color: white;
 }
 
 /* SCONTI */
@@ -309,17 +328,6 @@ img{
 
 .box-sconti{
     margin-bottom: 30px;
-}
-
-/* PS NOW */
-
-.ps-now{
-    background-color: #161C3B;
-    padding-bottom: 40px;
-}
-
-.ps-now p{
-    color: white;
 }
 
 /* SOCIAL */
@@ -403,14 +411,5 @@ footer a{
     text-decoration: none;
 }
 
-/* HOVER */
 
-.active-title{
-    padding: 2px;
-}
-
-.active-title:active{
-    border: 2px solid #006CCE;
-    border-radius: 20px;
-}
 
