@@ -25,13 +25,48 @@
     border-color: #2D64E6;
 }
 
-.btn-custom-gray{
-    background-color: #F5F5F5;
+.btn-custom-blue:hover{
+    box-shadow: 0px 0px 1px 2px white inset;
+    background-color: #2D64E6;
+}
+
+.btn-custom-black:hover{
+    box-shadow: 0px 0px 1px 2px white inset;
+}
+
+.btn-custom-red:hover{
+    box-shadow: 0px 0px 1px 2px black inset;
+    background-color: #CB3C10;
+}
+
+.btn-custom-now:hover{
+    color: black;
+    box-shadow: 0px 0px 1px 2px #000 inset;
+    background-color: #fff;
+}
+
+.btn-custom-now{
+    background-color: #fff;
     border-radius: 20px;
     font-size: 15px;
     padding: 5px 15px;
     color: black;
+    border-color:2px solid white;
+}
+
+.btn-custom-plus{
+    background-color: #F5F5F5;
+    color: #2D64E6;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 15px;
     border: none;
+}
+
+.btn-custom-plus:hover{
+    border: 3px solid #C6C5C5;
+    background-color: #F5F5F5;
+    color: #2D64E6;
 }
 
 /* HEADER */
@@ -57,7 +92,7 @@ header .black-line{
 }
 
 .navbar .nav-item .nav-link:hover .c-hover{
-    display: block;
+    display: inline-block;
 }
 
 .navbar .nav-item .nav-link:hover .c-block{
@@ -97,6 +132,7 @@ img{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
+    transition: 2s;
 }
 
 .testo-jumbo{
@@ -124,6 +160,11 @@ img{
 
 .box-titoli{
     margin: 40px 0px 10px 0px;
+    transition: 2s;
+}
+
+.box-titoli:hover {
+    margin-top: 20px;
 }
 
 .box-titoli img{
@@ -169,6 +210,10 @@ img{
 
 .colonna-accessori{ 
     margin-bottom: 50px;
+}
+
+.button-ps5{
+    width: 200px;
 }
 
 .box-accessori{
@@ -231,7 +276,6 @@ img{
 
 .ps-plus{
     background-color: #BEBCBB;
-    padding-bottom: 40px;
 }
 
 .box-testo-plus{
