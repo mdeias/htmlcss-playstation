@@ -1,15 +1,67 @@
+
+/* BOTTONI */
+
+.btn-custom-black{
+    background-color: #353636;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-color: #353636;
+}
+
+.btn-custom-red{
+    background-color: #CB3C10;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-color: #CB3C10;
+}
+
+.btn-custom-blue{
+    background-color: #2D64E6;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-color: #2D64E6;
+}
+
+.btn-custom-gray{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 15px;
+    color: black;
+    border: none;
+}
+
 /* HEADER */
 
 header .black-line{
     height: 40px;
     background-color: #000;
 }
+.navbar .nav-item .nav-link{
+    color: black;
+}
 
-header .btn-header{
-    background-color: #353636;
-    border-radius: 20px;
-    font-size: 15px;
-    padding: 5px 15px;
+.navbar .nav-item .nav-link:hover{
+    color:#006CCE
+}
+
+.box-header{
+    position: relative;
+}
+
+.navbar .nav-item .nav-link .c-hover{
+    display: none;
+}
+
+.navbar .nav-item .nav-link:hover .c-hover{
+    display: block;
+}
+
+.navbar .nav-item .nav-link:hover .c-block{
+    display: none;
 }
 
 header .fa-search{
@@ -68,18 +120,10 @@ img{
     padding-top: 55px;
 }
 
-.testo-jumbo .custom-btn{
-    margin-top: 15px;
-    background-color: #CD3D10;
-    border-radius: 20px;
-    padding: 9px 15px;
-    font-weight: 500;
-}
-
 /* TITOLI */
 
 .box-titoli{
-    margin: 40px 0px 100px 0px;
+    margin: 40px 0px 10px 0px;
 }
 
 .box-titoli img{
@@ -87,6 +131,9 @@ img{
 }
 
 /* CONSOLE PS 5 */
+.console-ps-5{
+    margin-top: 50px;
+}
 
 .box-title{
     text-align: center;
@@ -120,18 +167,13 @@ img{
     font-size: 17px;
 }
 
-.btn-ps5{
-    width: 200px;
-    border-radius: 25px;
-    padding: 5px 0px 5px 0px;
-}
-
 .colonna-accessori{ 
     margin-bottom: 50px;
 }
 
 .box-accessori{
     text-align: center;
+    opacity: 0.5;
 }
 
 .box-accessori p{
@@ -143,7 +185,11 @@ img{
     cursor: pointer;
 }
 
-.box-accessori:hover{
+.console-ps-5 .box-accessori:hover{
+    opacity: 1.0;
+}
+
+.box-accessori:active{
     border-bottom: 3px solid #006CCE;
 }
 
@@ -181,23 +227,22 @@ img{
     margin: 20px 0px;
 }
 
-.width-btn{
-    width: 120px;
-}
-
 /* PS PLUS */
 
 .ps-plus{
     background-color: #BEBCBB;
-}
-
-.box-testo-plus{
-    margin-top: 20px;
     padding-bottom: 40px;
 }
 
+.box-testo-plus{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .box-testo-plus img{
-    width: 200px;
+    width: 250px;
 }
 
 .ps-plus .box-plus img{
@@ -206,12 +251,6 @@ img{
 
 .ps-plus p, .ps-now p{
     margin: 35px 0px;
-}
-
-.btn-plus{
-    background-color: #D9DADB;
-    color: #006CCE;
-    border-color: #D9DADB;
 }
 
 /* SCONTI */
@@ -239,10 +278,6 @@ img{
     color: white;
 }
 
-.btn-now{
-    color: black;
-}
-
 /* SOCIAL */
 
 .social{
@@ -265,6 +300,7 @@ footer{
     background-color: #00439B;
     color: white;
     font-size: 12px;
+    padding-bottom: 50px;
 }
 
 footer .box-footer{
@@ -322,3 +358,15 @@ footer a{
     color: white;
     text-decoration: none;
 }
+
+/* HOVER */
+
+.active-title{
+    padding: 2px;
+}
+
+.active-title:active{
+    border: 2px solid #006CCE;
+    border-radius: 20px;
+}
+
